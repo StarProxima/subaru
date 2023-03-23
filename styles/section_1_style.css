@@ -1,0 +1,31 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: none;
+}
+
+/* .s-1 {} */
+
+.image-container {
+    position: relative;
+}
+
+
+
+.s-1__img_1 {
+    width: 55%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.s-1__img_2 {
+    position: absolute;
+
+    left: 48%;
+    /* right: 30px; */
+    bottom: -200px;
+    height: 350px;
+    width: 600px;
+    object-fit: cover;
+}
