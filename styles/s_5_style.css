@@ -1,9 +1,6 @@
 .s-5 {
     background-color: white;
     height: 1150px;
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
 }
 
 
@@ -14,7 +11,7 @@
     margin: 0 auto;
 }
 
-.s-5__container_2 {
+.s-5__container-2 {
     position: relative;
     height: 550px;
     width: 1200px;
@@ -34,7 +31,7 @@
     margin: 120px 50px 0;
 }
 
-.s-5__text_1 {
+.s-5__text-1 {
     position: relative;
     width: 400px;
     font-size: 1rem;
@@ -47,11 +44,11 @@
 
 
 
-.s-5__image_container {
+.s-5__image-container {
     position: relative;
 }
 
-.s-5__img_1 {
+.s-5__img-1 {
     position: absolute;
     margin-left: auto;
     margin-right: 0;
@@ -64,7 +61,7 @@
     background-position: 84.04% 50%;
 }
 
-.s-5__img_2 {
+.s-5__img-2 {
     position: relative;
     height: 360px;
     width: 600px;
@@ -74,7 +71,7 @@
     box-shadow: 0px 0px 64px rgba(0, 0, 0, 0.35);
 }
 
-.s-5__text_2 {
+.s-5__text-2 {
     width: 550px;
     font-size: 1rem;
     line-height: 1.6;
