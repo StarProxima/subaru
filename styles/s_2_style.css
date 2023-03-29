@@ -6,7 +6,6 @@
     position: relative;
     height: 550px;
     width: 1200px;
-    /* this is center container */
     margin: 0 auto;
     display: flex;
 
@@ -39,5 +38,4 @@
     color: #555273 !important;
     text-decoration: none;
     margin-bottom: 20px;
-    border-color: #555273;
 }
