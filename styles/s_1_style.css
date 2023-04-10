@@ -1,0 +1,122 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: none;
+}
+
+.s-1 {
+    background-color: #f5f5f5;
+    height: 1100px;
+}
+
+.s-1__img-container {
+    position: relative;
+
+}
+
+.s-1__img-1 {
+    width: 55%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.s-1__img-2 {
+    position: absolute;
+    left: 48%;
+    bottom: -200px;
+    height: 350px;
+    width: 600px;
+    object-fit: cover;
+    box-shadow: 0px 0px 64px rgba(0, 0, 0, 0.35);
+}
+
+.s-1__text {
+    position: absolute;
+    text-align: right;
+    left: 48%;
+    bottom: 150px;
+    width: 700px;
+    margin-left: -150px;
+    font-size: 3.75rem;
+    line-height: 1.1;
+    font-weight: 700;
+
+    font-family: Oswald, sans-serif;
+
+}
+
+.s-1__avatar-container {
+    position: absolute;
+    left: 48%;
+    margin-top: 50px;
+    margin-left: -350px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    /* Top and bottom grey border */
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.s-1__avatar-subcontainer {
+    margin-top: 10px;
+}
+
+
+
+.s-1__avatar {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+}
+
+.s-1__avatar-title {
+    line-height: 1.2;
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: Roboto, sans-serif;
+}
+
+.s-1__avatar-subtitle {
+    line-height: 1.6;
+    font-size: 0.875rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    position: relative;
+    margin: 0%;
+    display: block;
+}
+
+.zero-block {
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.menu0 {
+    text-align: center;
+    width: calc(100%/8);
+}
+
+.menu0 button {
+
+    height: 40.59px;
+    background-color: #cf233d;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 0px solid rgb(255, 255, 255);
+}

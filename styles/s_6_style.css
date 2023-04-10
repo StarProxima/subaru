@@ -1,0 +1,30 @@
+.s-6 {
+    background-color: white;
+    height: 550px;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.s-6__img-1 {
+    width: calc(100% / 3);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-image: url(../images/s6/img_1.jpg);
+}
+.s-6__img-2 {
+    width: calc(100% / 3);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-image: url(../images/s6/img_2.jpg);
+}
+.s-6__img-3 {
+    width: calc(100% / 3);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-image: url(../images/s6/img_3.jpg);
+}
